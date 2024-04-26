@@ -1,9 +1,10 @@
+# Need to install activesupport v5.2.4.3 OR update ruby past v2.5
 require 'active_support/all'
 
 @candidates = [
   {
     id: 5,
-    years_of_experience: 4,
+    years_of_experience: 2,
     github_points: 293,
     languages: ['C', 'Ruby', 'Python', 'Clojure'],
     date_applied: 5.days.ago.to_date,
@@ -11,8 +12,8 @@ require 'active_support/all'
   },
   {
     id: 7,
-    years_of_experience: 1,
-    github_points: 145,
+    years_of_experience: 3,
+    github_points: 213,
     languages: ['JavaScript', 'Ruby', 'Go', 'Erlang'],
     date_applied: 15.days.ago.to_date,
     age: 19
